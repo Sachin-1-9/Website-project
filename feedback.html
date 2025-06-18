@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        *{
+            background-image: url(./Screenshot\ 2025-06-13\ at\ 14.27.07.png);
+        }
+    </style>
+</head>
+<body>
+    <h1>Feedback</h1>
+    <!-- <textarea id="message" name="message" rows="10" cols="100" placeholder="give your Feedback*" required style="background-color:#EFE4D2;"></textarea><br></br> -->
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1"rows="10"></textarea>
+    </div>
+    <select style= " background-color:#EFE4D2; width:250px">
+    <option value="" id="box">Rating</option>
+    <option value="us">⭐️⭐️⭐️⭐️⭐️</option>
+    <option value="us">⭐️⭐️⭐️⭐️</option>
+    <option value="us">⭐️⭐️⭐️</option>
+    <option value="us">⭐️⭐️</option>
+    <option value="us">⭐️</option>
+    <form action="submit_page.html" method="post">
+    <input type="submit" value="Submit" style="background-color:#254D70;color:black;">
+    </form>
+    <h2 style="font-family:fantasy;">Thankyou For Your Feedback</h2>
+      
+</body>
+</html>
